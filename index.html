@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Role & Password Authentication Simulation</title>
+<link rel="Stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <div class="auth-container">
+    <h1>User Authentication</h1>
+    <form id="authForm">
+      <label for="role">Select Role</label>
+      <select id="role" required>
+        <option value="" disabled selected>Select your role</option>
+        <option value="Department Head">Department Head</option>
+        <option value="Faculty">Faculty</option>
+        <option value="Student Officer">Student Officer</option>
+        <option value="Student">Student</option>
+      </select>
+
+      <label for="password">Enter Password</label>
+      <input type="password" id="password" placeholder="Password" required />
+
+      <button type="submit">Authenticate</button>
+    </form>
+    <div id="message" class="result-message" role="alert" aria-live="polite" style="display:none;"></div>
+  </div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+

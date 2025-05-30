@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .auth-container {
+    background: rgba(0,0,0,0.6);
+    border-radius: 12px;
+    padding: 30px 40px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    width: 350px;
+  }
+  h1 {
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 600;
+  }
+  label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+  }
+  select, input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  button {
+    width: 100%;
+    background: #0a620b;
+    color: #323232;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 12px;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background: #ffb600;
+  }
+  .result-message {
+    margin-top: 20px;
+    padding: 12px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  .success {
+    background-color: #28a745;
+    color: #e5f6e9;
+  }
+  .error {
+    background-color: #dc3545;
+    color: #f7d4d5;
+  }
+  .warning {
+    background-color: #763b11;
+    color: #d72424;
+  }
